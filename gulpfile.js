@@ -4,7 +4,7 @@ var requireDir = require( 'require-dir' );
 requireDir( './gulp' );
 
 gulp.task( 'watch-compile', [ 'compile' ], function () {
-	gulp.watch( './component/**/*', [ 'browserify' ] );
+	gulp.watch( './src/**/*', [ 'browserify' ] );
 	gulp.watch( [ './index.html', './index.js' ], [ 'through' ] );
 	gulp.watch( './style/**/*', [ 'less' ] );
 } );
