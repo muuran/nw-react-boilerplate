@@ -1,8 +1,8 @@
-var gulp = require( 'gulp' );
+var gulp = require('gulp');
 
-gulp.task( 'compile', [
-	'browserify',
-	'through',
-	'less',
-	'install'
-] );
+gulp.task('compile', [
+  'browserify',
+  'through',
+  'less',
+  'install'
+]);

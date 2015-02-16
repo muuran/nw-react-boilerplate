@@ -1,6 +1,6 @@
-	var React = require( 'react' ),
-		Main = require( './components/main/Main' );
+var React = require('react');
+var Main = require('./components/main/Main');
 
-	window.React = React;
+window.React = React;
 
-	React.render( <Main />, document.getElementById('app') );
+React.render(<Main />, document.getElementById('app'));
