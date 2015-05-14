@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "nw-react-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "nwbuild": {
+    "version": "0.12.1",
+    "platforms": [
+      "osx",
+      "win"
+    ]
+  },
+  "window": {
+    "title": "",
+    "toolbar": true,
+    "frame": true,
+    "resizable": true,
+    "width": 800,
+    "height": 480,
+    "position": "mouse"
+  }
+}
